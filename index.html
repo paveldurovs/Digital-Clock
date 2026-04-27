@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</head>
+<body>
+    <div class="header">
+    <button id="sound__btn" class="sound__toggle">
+        <i id="sound__icon" class='bx bxs-volume-mute'></i>
+    </button>
+
+    <div class="container"> 
+        <div class="clock">
+            <span id="hrs">00</span>
+            <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span>
+        </div>
+        <p class="footer__title">© 2026 by MukhammedjanAliev</p>
+    </div>
+</div>
+
+<audio id="tick__sound" src="tick.mp3" preload="auto"></audio>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
